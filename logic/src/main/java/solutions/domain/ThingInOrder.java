@@ -11,6 +11,7 @@ public class ThingInOrder {
 
     @ManyToOne
     private Thing thing;
+
     @ManyToOne
     private Order order;
 

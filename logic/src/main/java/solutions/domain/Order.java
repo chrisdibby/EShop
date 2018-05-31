@@ -5,6 +5,7 @@ import java.util.List;
 
 
 @Entity
+@Table(name="zakaz")
 public class Order {
     @Id
     @GeneratedValue (strategy = GenerationType.AUTO)

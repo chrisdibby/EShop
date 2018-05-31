@@ -5,7 +5,7 @@
  http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" version="1.0">
 
     <persistence-unit name="shopPU">
-        <jta-data-source>java:jboss/shopDS</jta-data-source>
+        <jta-data-source>java:jboss/postgres</jta-data-source>
         <properties>
             <property name="javax.persistence.jdbc.url"
                       value="objectdb://localhost/my.odb"/>
